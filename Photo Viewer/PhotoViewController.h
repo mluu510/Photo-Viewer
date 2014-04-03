@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  PhotoViewController.h
 //  Photo Viewer
 //
 //  Created by Minh Luu on 4/2/14.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface PhotoViewController : UICollectionViewController
 
 @end

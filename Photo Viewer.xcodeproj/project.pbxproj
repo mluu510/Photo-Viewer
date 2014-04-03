@@ -14,13 +14,18 @@
 		27589DE718ECB56F00BB768B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 27589DE618ECB56F00BB768B /* main.m */; };
 		27589DEB18ECB56F00BB768B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 27589DEA18ECB56F00BB768B /* AppDelegate.m */; };
 		27589DEE18ECB56F00BB768B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27589DEC18ECB56F00BB768B /* Main.storyboard */; };
-		27589DF118ECB56F00BB768B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 27589DF018ECB56F00BB768B /* ViewController.m */; };
 		27589DF318ECB56F00BB768B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 27589DF218ECB56F00BB768B /* Images.xcassets */; };
 		27589DFA18ECB57000BB768B /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27589DF918ECB57000BB768B /* XCTest.framework */; };
 		27589DFB18ECB57000BB768B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27589DDA18ECB56F00BB768B /* Foundation.framework */; };
 		27589DFC18ECB57000BB768B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27589DDE18ECB56F00BB768B /* UIKit.framework */; };
 		27589E0418ECB57000BB768B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 27589E0218ECB57000BB768B /* InfoPlist.strings */; };
 		27589E0618ECB57000BB768B /* Photo_ViewerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 27589E0518ECB57000BB768B /* Photo_ViewerTests.m */; };
+		27589E1218ECB62A00BB768B /* dog1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 27589E0F18ECB62A00BB768B /* dog1.jpg */; };
+		27589E1318ECB62A00BB768B /* dog2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 27589E1018ECB62A00BB768B /* dog2.jpg */; };
+		27589E1418ECB62A00BB768B /* dog3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 27589E1118ECB62A00BB768B /* dog3.jpg */; };
+		27589E1718ECB65000BB768B /* PhotoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 27589E1618ECB65000BB768B /* PhotoViewController.m */; };
+		27589E1A18ECB7EC00BB768B /* PhotoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 27589E1918ECB7EC00BB768B /* PhotoCell.m */; };
+		27589E2018ECC16E00BB768B /* PhotoPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 27589E1F18ECC16E00BB768B /* PhotoPageViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,14 +50,21 @@
 		27589DE918ECB56F00BB768B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		27589DEA18ECB56F00BB768B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		27589DED18ECB56F00BB768B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		27589DEF18ECB56F00BB768B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		27589DF018ECB56F00BB768B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		27589DF218ECB56F00BB768B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		27589DF818ECB57000BB768B /* Photo ViewerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Photo ViewerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		27589DF918ECB57000BB768B /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		27589E0118ECB57000BB768B /* Photo ViewerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Photo ViewerTests-Info.plist"; sourceTree = "<group>"; };
 		27589E0318ECB57000BB768B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		27589E0518ECB57000BB768B /* Photo_ViewerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Photo_ViewerTests.m; sourceTree = "<group>"; };
+		27589E0F18ECB62A00BB768B /* dog1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = dog1.jpg; sourceTree = "<group>"; };
+		27589E1018ECB62A00BB768B /* dog2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = dog2.jpg; sourceTree = "<group>"; };
+		27589E1118ECB62A00BB768B /* dog3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = dog3.jpg; sourceTree = "<group>"; };
+		27589E1518ECB65000BB768B /* PhotoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoViewController.h; sourceTree = "<group>"; };
+		27589E1618ECB65000BB768B /* PhotoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoViewController.m; sourceTree = "<group>"; };
+		27589E1818ECB7EC00BB768B /* PhotoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoCell.h; sourceTree = "<group>"; };
+		27589E1918ECB7EC00BB768B /* PhotoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoCell.m; sourceTree = "<group>"; };
+		27589E1E18ECC16E00BB768B /* PhotoPageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoPageViewController.h; sourceTree = "<group>"; };
+		27589E1F18ECC16E00BB768B /* PhotoPageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoPageViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,8 +127,12 @@
 				27589DE918ECB56F00BB768B /* AppDelegate.h */,
 				27589DEA18ECB56F00BB768B /* AppDelegate.m */,
 				27589DEC18ECB56F00BB768B /* Main.storyboard */,
-				27589DEF18ECB56F00BB768B /* ViewController.h */,
-				27589DF018ECB56F00BB768B /* ViewController.m */,
+				27589E1E18ECC16E00BB768B /* PhotoPageViewController.h */,
+				27589E1F18ECC16E00BB768B /* PhotoPageViewController.m */,
+				27589E1818ECB7EC00BB768B /* PhotoCell.h */,
+				27589E1918ECB7EC00BB768B /* PhotoCell.m */,
+				27589E1518ECB65000BB768B /* PhotoViewController.h */,
+				27589E1618ECB65000BB768B /* PhotoViewController.m */,
 				27589DF218ECB56F00BB768B /* Images.xcassets */,
 				27589DE118ECB56F00BB768B /* Supporting Files */,
 			);
@@ -126,6 +142,9 @@
 		27589DE118ECB56F00BB768B /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				27589E0F18ECB62A00BB768B /* dog1.jpg */,
+				27589E1018ECB62A00BB768B /* dog2.jpg */,
+				27589E1118ECB62A00BB768B /* dog3.jpg */,
 				27589DE218ECB56F00BB768B /* Photo Viewer-Info.plist */,
 				27589DE318ECB56F00BB768B /* InfoPlist.strings */,
 				27589DE618ECB56F00BB768B /* main.m */,
@@ -231,6 +250,9 @@
 				27589DF318ECB56F00BB768B /* Images.xcassets in Resources */,
 				27589DE518ECB56F00BB768B /* InfoPlist.strings in Resources */,
 				27589DEE18ECB56F00BB768B /* Main.storyboard in Resources */,
+				27589E1318ECB62A00BB768B /* dog2.jpg in Resources */,
+				27589E1218ECB62A00BB768B /* dog1.jpg in Resources */,
+				27589E1418ECB62A00BB768B /* dog3.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,7 +271,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				27589DF118ECB56F00BB768B /* ViewController.m in Sources */,
+				27589E1A18ECB7EC00BB768B /* PhotoCell.m in Sources */,
+				27589E2018ECC16E00BB768B /* PhotoPageViewController.m in Sources */,
+				27589E1718ECB65000BB768B /* PhotoViewController.m in Sources */,
 				27589DEB18ECB56F00BB768B /* AppDelegate.m in Sources */,
 				27589DE718ECB56F00BB768B /* main.m in Sources */,
 			);
@@ -456,6 +480,7 @@
 				27589E0B18ECB57000BB768B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		27589E0C18ECB57000BB768B /* Build configuration list for PBXNativeTarget "Photo ViewerTests" */ = {
 			isa = XCConfigurationList;
@@ -464,6 +489,7 @@
 				27589E0E18ECB57000BB768B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
