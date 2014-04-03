@@ -1,4 +1,4 @@
-Photo-Viwer
+Photo Viewer
 ===========
 
 iOS App that uses collection view and page view controller to display images. Built during an interview live coding session.
